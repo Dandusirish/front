@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body body style="background-image: url('{% static 'images/redplane.avif' %}');">
+ 
+    <center>
+        <h1>this is back page</h1>
+        <a href="{% url 'fornt:fornt' %}">click here</a>
+    </center>
+</body>
+</html> 
